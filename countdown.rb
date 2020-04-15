@@ -9,7 +9,7 @@ def countdown(number)
 end
 
 def countdown_with_sleep(number)
-  until niumber == 0
+  until number == 0
     puts "#{number} SECOND(S)!"
     sleep(5)
     number -= 1
